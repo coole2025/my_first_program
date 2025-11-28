@@ -14,11 +14,7 @@
     "python.defaultInterpreterPath": "/Users/zhaomengdi/miniconda3/envs/my_first_program/bin/python3",
     "python.terminal.activateEnvironment": true,
     "python.terminal.activateEnvInCurrentTerminal": true,
-    "terminal.integrated.inheritEnv": false,
-    "cSpell.words": [
-        "xlabel",
-        "ylabel"
-    ],
+  "terminal.integrated.inheritEnv": false,
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
@@ -28,5 +24,6 @@
     },
     "isort.args": ["--profile=black"],
     "black-formatter.args": ["--line-length=88"],
-     "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "cSpell.blockCheckingWhenLineLengthGreaterThan": 100000
 }
